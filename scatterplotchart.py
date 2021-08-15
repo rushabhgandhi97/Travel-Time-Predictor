@@ -1,0 +1,12 @@
+plt.scatter(X_test,y_test,color='black',marker="o",s=30)
+plt.plot(X_test,y_pred,color='blue',linewidth=3)
+#plt.scatter(X,Y)
+#plt.plot(X,Y,color='black',linewidth=3)
+plt.xticks(())
+plt.yticks(())
+plt.xlabel('x')
+plt.ylabel('y')
+plt.show()
+#print("Enter time:")
+#a=raw_input(
+print reg.predict(520)
